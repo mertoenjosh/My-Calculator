@@ -95,8 +95,8 @@ class MainActivity : AppCompatActivity() {
                     tvDisplay.text = removeZeroAfterResult((one.toDouble() * two.toDouble()).toString())
                 }
 
-                if (inputValue.contains("/")) {
-                    var (one, two) = inputValue.split("/")
+                if (inputValue.contains("÷")) {
+                    var (one, two) = inputValue.split("÷")
 
                     if (prefix.isNotEmpty()) {
                         one = prefix + one

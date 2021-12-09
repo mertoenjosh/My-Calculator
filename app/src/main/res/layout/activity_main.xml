@@ -61,7 +61,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="/"
+            android:text="÷"
             android:textSize="@dimen/text_size"
             android:layout_margin="@dimen/btn_margin"
             android:onClick="onOperator"/>
@@ -227,11 +227,17 @@
             android:id="@+id/btnDelete"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="3"
-            android:text="Backspace"
+            android:layout_weight="1"
+            android:text="\u232b"
             android:textSize="@dimen/text_size"
             android:layout_margin="@dimen/btn_margin"
             android:onClick="onDelete"/>
+
+<!--
+        <Key android:codes="-5" android:keyLabel="⌫"
+             android:keyWidth="15%p" android:keyEdgeFlags="right"
+             android:isRepeatable="true"/>
+-->
 
         <Button
             android:id="@+id/btnEqual"
